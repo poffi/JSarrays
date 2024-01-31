@@ -52,7 +52,13 @@ const removed= newitemTracker.pop();
 console.log(newitemTracker)
 console.log(removed)
 //When you need to mutate an array by removing the last element, use .pop().
-let chores=['cleaning','washing'];
+const chores=['cleaning','washing'];
 const away= chores.pop();
 console.log(away)
 console.log(chores);
+//.shift and .unshift is what removes and add an items in the front of an array.
+//the .shift removes 
+//the .unshift adds
+/*const remove= chores.shift();
+console.log(chores)
+console.log(remove)*/
