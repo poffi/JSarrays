@@ -57,8 +57,14 @@ const away= chores.pop();
 console.log(away)
 console.log(chores);
 //.shift and .unshift is what removes and add an items in the front of an array.
-//the .shift removes 
-//the .unshift adds
-/*const remove= chores.shift();
+//the .shift removes
+
+ /*const remove= chores.shift();
 console.log(chores)
 console.log(remove)*/
+
+//the .unshift adds
+/*console.log(chores.unshift('eating', 'sleeping'));
+console.log(chores);*/
+
+
