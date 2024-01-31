@@ -37,7 +37,8 @@ console.log(utensils)
 console.log(newyearsresolutions. length);
 console.log(newyearsresolutions[newyearsresolutions.length-1]);
 //We use dot notation, chaining a period with the property name to the array, to access the length property of the newYearsResolutions array.
-/*learn about some built-in JavaScript methods that make working with arrays easier. These methods are specifically called on arrays to make common tasks, like adding and removing elements, more straightforward.
+/*learn about some built-in JavaScript methods that make working with arrays easier.
+ These methods are specifically called on arrays to make common tasks, like adding and removing elements, more straightforward.
 .push() allows us to add items to the end of an array.
 .push() can take a single argument or multiple arguments separated by commas. In this case, we’re adding two elements: 'item 3' and 'item 4' to itemTracker.
 Notice that .push() changes, or mutates, itemTracker. You might also see .push() referred to as a destructive array method since it changes the initial array.
