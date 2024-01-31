@@ -22,3 +22,36 @@ let seasons =['winter','spring','summer','Fall'];
 seasons[3]= 'Autumn';
 console.log(seasons);
 console.log(newyearsresolutions)
+/* variables declared with let can be reassigned
+Variables declared with const keyword cannot be reassigned*/
+let condiments=['ketchup','Mustard','Relish']
+condiments[0]='mayo'
+console.log(condiments[condiments.length-1]);
+
+
+const utensils=[ 'fork','spoon','knife']
+utensils[0]='spork'
+console.log(utensils)
+//One of an array’s built-in properties is length and it returns the number of items in the array. We access the .length property just like we do with strings.
+
+console.log(newyearsresolutions. length);
+console.log(newyearsresolutions[newyearsresolutions.length-1]);
+//We use dot notation, chaining a period with the property name to the array, to access the length property of the newYearsResolutions array.
+/*learn about some built-in JavaScript methods that make working with arrays easier. These methods are specifically called on arrays to make common tasks, like adding and removing elements, more straightforward.
+.push() allows us to add items to the end of an array.
+.push() can take a single argument or multiple arguments separated by commas. In this case, we’re adding two elements: 'item 3' and 'item 4' to itemTracker.
+Notice that .push() changes, or mutates, itemTracker. You might also see .push() referred to as a destructive array method since it changes the initial array.
+*/
+const itemTracker= ['item 0','item 1','item 2'];
+itemTracker.push('item 3','item 4');
+console.log(itemTracker);
+//the opposite of .push() is .pop() THIS REMOVES AN ITEM IN THE ARRAY
+const newitemTracker =['item 0','item 1', 'item2'];
+const removed= newitemTracker.pop();
+console.log(newitemTracker)
+console.log(removed)
+//When you need to mutate an array by removing the last element, use .pop().
+let chores=['cleaning','washing'];
+const away= chores.pop();
+console.log(away)
+console.log(chores);
